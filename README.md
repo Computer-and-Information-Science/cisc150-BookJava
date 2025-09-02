@@ -1,19 +1,20 @@
-Create a **student** class in java. 
+Create a **book** class in java. 
 The student should have 3  private data members:
-* private String name
-* private int id
-* private double gpa
+* private String title
+* private String author
+* private int numberOfPages
 
   It should have one constructor, that takes in all three pieces of data, and assigns them using the **this** operator;
 
-  Each data member should have a corresponding *getter* that allows another program to **get** information about the student, and a *setter* that allows someone to **set**  information for the student.
+  Each data member should have a corresponding *getter* that allows another program to **get** information about the book, and a *setter* that allows someone to **set**  information for the book.
 
-  It should also have a method called dispayStudent() which will output information about the student in this way:
-  The student Bob Moore has an id of 87678 with a gpa of 3.5.
+  It should also have a method called dispayBook() which will output information about the student in this way:
+  The book Harry Potter was written by J.K. Rowling and it has 309 pages.
 
-  In the main() method, create a **student** object  with the name "Lisa Waddell", id of 54321, and gpa of 2.5, then call the displayStudent() method to generate the ouput
+  In the main() method, create three **book** objects and call displayBook on them.
 
-  The student Lisa Waddell has an id of 54321 with a gpa of 2.5.
+  For one of the books, update the number of pages and display it again.
+
 
   Make sure to rename your codespace so you can find this in the future!
   
